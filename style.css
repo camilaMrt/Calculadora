@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    background-image: url("./assets/703961-best-physics-wallpaper-1920x1080-1920x1080-for-android-50.jpg");
+    filter: brightness(15%);
+    height: 100vh;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: #808080;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 20px;
+    border: 5px groove #A6A6A6;
+}
+
+.tela {
+    display: flex;
+    justify-content: center;
+}
+#resultado {
+    display: flex;
+    background-color: #AEE240;
+    width: 205px;
+    height: 51px;
+    margin: 20px 0;
+    font-size: 28px;
+    color: #000000;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+    border-radius: 8px;
+    font-family:'Monomaniac One', sans-serif;
+    border: 1px inset #292828;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #292727;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 3px outset #A6A6A6;
+}
+
+.botao:hover {
+    border: 4px groove #A6A6A6;
+}
+
+.botao:active {
+    border: 5px inset #A6A6A6;
+}
+
+.botaoC, .botaoApagar {
+    background-color: rgb(129, 0, 0);
+}
+
+.botaoNumero {
+    background-color: #454242;
+}
+
+.botaoIgual {
+    height: 102px;
+}
+
+.botaoZero {
+    width: 102px;
+    background-color: #454242;
+}
